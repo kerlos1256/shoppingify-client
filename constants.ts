@@ -1,0 +1,15 @@
+export const BE = {
+  publicCategories: "http://localhost:4000/category/public/withitems",
+  login: "http://localhost:4000/auth/login",
+  privateCategories: "http://localhost:4000/category/private/withitems",
+  currentActiveList: "http://localhost:4000/list/current",
+  newItem: "http://localhost:4000/item/new",
+  deleteItem: "http://localhost:4000/item/",
+  updateItems: "http://localhost:4000/item/update",
+  doneItem: "http://localhost:4000/item/",
+  createList: "http://localhost:4000/list/new",
+  completeList: "http://localhost:4000/list/current/complete",
+  cancelList: "http://localhost:4000/list/current/cancel",
+  getLists: "http://localhost:4000/list",
+  getList: "http://localhost:4000/list",
+};
